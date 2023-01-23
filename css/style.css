@@ -8,3 +8,14 @@
     background: rgba(17, 17, 17, 0.8);
   border-radius: 8px;
 }
+dialog { display: block;
+border: 1px solid plum;
+border-radius: 5px; 
+box-shadow: #eee;
+
+}
+
+dialog:not(:target):not([open]) { display: none; }
+a{
+  text-decoration: none;
+}
